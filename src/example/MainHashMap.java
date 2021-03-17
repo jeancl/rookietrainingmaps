@@ -1,4 +1,4 @@
-package rookietrainingmaps;
+package example;
 
 import java.util.HashMap;
 

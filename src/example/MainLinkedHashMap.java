@@ -1,12 +1,11 @@
-package rookietrainingmaps;
+package example;
 
-import java.util.Hashtable;
+import java.util.LinkedHashMap;
 
-public class MainHashTable {
+public class MainLinkedHashMap {
 
 	public static void main(String[] args) {
-
-		Hashtable<String, String> hashmap = new Hashtable<String, String>();
+		LinkedHashMap<String, String> hashmap = new LinkedHashMap<String, String>();
 		
 		// Adding values to map
 		hashmap.put("c", "value c");
@@ -47,11 +46,8 @@ public class MainHashTable {
 		
 		System.out.println("---------------");
 		
-		// Hashtable will Throw error if null value used
-		try {
-			hashmap.put(null, null);
-		} catch (Exception e) {
-			System.out.println("Exception happen: " + e.getMessage());
-		}
+		// LinkedHashMap accepts null values;
+		hashmap.put(null, null);
 	}
+	
 }

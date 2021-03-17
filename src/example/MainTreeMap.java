@@ -1,4 +1,4 @@
-package rookietrainingmaps;
+package example;
 
 import java.time.LocalDate;
 import java.util.Map.Entry;
